@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Semantic Elements</title>
+    </head>
+    <body>
+      <section>
+        <h1>Welcome!</h1>
+        <p>Everything is <em>fine.</em></p>
+        <p>No really, <strong>it's true!</strong></p>
+        <p>Here are some other true things:</p>
+        <ol>
+          <li>Unicorns are real.</li>
+          <li>Unicorns are awesome.</li>
+          <li>I am a unicorn.</li>
+        </ol>
+        <p>This is how I know everything is fine</p>
+        <ul>
+          <li>I am alive.</li>
+          <li>Donut's exist.</li>
+          <li>I can eat donuts.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>A quick video!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLsyvDWwjkTqtOmqAiTzzfHspTAztB-udL" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </section>
+
+      <section>
+        <h1>Progress bar</h1>
+          <p>This HTML has 22/100 progress specified.</p>
+          <progress value="22" max="100"></progress>
+      </section>
+
+      <section>
+        <h1>Criteria</h1>
+          <details>
+            <summary><strong>Semantic Elements Summary</strong></summary>
+            Includes 1 paragraph defining or summarizing the importance of semantic elements.
+          </details>
+          <details>
+            <summary><strong>15 Different Elements</strong></summary>
+            Contains at least 15 different HTML elements
+          </details>
+          <details>
+            <summary><strong>Elements Used Correctly</strong></summary>
+            All elements are used correctly. Code displays correctly in browser.
+          </details>
+      </section>
+
+      <section>
+        <h1>Black Box</h1>
+        <canvas width="800" height="600" id="canvas"></canvas>
+          <script>
+            var canvas = document.getElementById('canvas');
+            var c = canvas.getContext('2d');
+            c.fillStyle = "black";
+            c.fillRect(100,100,400,300);
+          </script>
+      </section>
+
+      <section>
+        <dialog open>
+          <p>DIALOG!</p>
+        </dialog>
+      </section>
+
+      <section>
+        <picture>
+          <source srcset="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fi.forbesimg.com%2Fmedia%2Flists%2Fplaces%2Fseattle-wa_416x416.jpg"
+                  media="(min-width: 800px)">
+                  <img src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fi.forbesimg.com%2Fmedia%2Flists%2Fplaces%2Fseattle-wa_416x416.jpg" alt="" />
+        </picture>
+      </section>
+
+      <section>
+        <h1>Highlights?</h1>
+          <p>This text is <mark>highlighted.</mark> Wow!</p>
+      </section>
+
+      <section>
+        <h1>A Button!</h1>
+          <button type="button">Click Me!</button>
+      </section>
+
+      <section>
+        <h1>A Picture of Seattle that you can Download!</h1>
+          <a href="https://mynorthwest.com/wp-content/uploads/2021/06/seattle-heat-sun-620-ap-620x370.jpg"</a> download
+        </section>
+
+    <footer>
+      <p>Author: Rusty Bauder</p>
+      <p><a href="mailto:rbauder@uw.edu">rbauder@uw.edu</a></p>
+      <a href="https://www.russellbauderdesign.com">Visit my portfolio!</a>
+    </footer>
+    </body>
+</html>
